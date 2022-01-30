@@ -5,43 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c8c1bc7c-6e9c-4dde-af0a-8febf927bdc9" name="Changes" comment="First">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Comment.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Comment1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_base_17_ea_11.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_base_win_17_ea_11.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_controls_17_ea_11.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_controls_win_17_ea_11.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_fxml_17_ea_11.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_fxml_win_17_ea_11.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_graphics_17_ea_11.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_graphics_win_17_ea_11.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/target.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Comment.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Comment.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/comments.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javafx-base-11-ea+19-win.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javafx-base-11-ea+19.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/Comment_jar/Comment.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Comment/META-INF/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Comment/sample/sample.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/META-INF/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/sample/Constants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/sample/Controller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/sample/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/sample.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/sample.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/sample/Constants.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/sample/Controller.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/sample/Main.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sample/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sample/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,8 +72,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1643531881833</updated>
-      <workItem from="1643531883033" duration="4096000" />
+      <workItem from="1643531883033" duration="4484000" />
     </task>
+    <task id="LOCAL-00001" summary="First">
+      <created>1643536136196</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1643536136197</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
