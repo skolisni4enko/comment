@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Comment">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/Comment.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
