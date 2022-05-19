@@ -29,46 +29,46 @@ public class Controller {
     @FXML
     private Button btnCleanField;
 
-    Constants constants = new Constants();
+    Dictionaries dictionaries = new Dictionaries();
     ObservableList<String> marks = FXCollections.observableArrayList("Excellent", "Good", "Bad");
     private boolean isInitialize = false;
-
+    private String comment = null;
 
     @FXML // This method is called by the FXMLLoader when initialization is complete
     void initialize() {
         //Кнопка генерации
         btnGenerate.setOnAction(event -> {
             if (!isInitialize) {
-                constants.initializeLists();
+                dictionaries.initializeLists();
                 isInitialize = true;
             }
 
-            String comment = null;
+
 
             if (Objects.equals(levelChoiceBox.getValue(), "Excellent"))
             {
                 comment = nameTextField.getText() + " "
-                        + constants.getMaterial() + " "
-                        + constants.getHomework() + " "
-                        + constants.getGeneralCharacter() + " "
-                        + constants.getSelfEducation();
+                        + dictionaries.getMaterial() + " "
+                        + dictionaries.getHomework() + " "
+                        + dictionaries.getGeneralCharacter() + " "
+                        + dictionaries.getSelfEducation();
             }
 
             if (Objects.equals(levelChoiceBox.getValue(),"Good"))
             {
                 comment = nameTextField.getText() + " "
-                        + constants.getMaterial() + " "
-                        + constants.getBadWork() + " "
-                        + constants.getGeneralCharacter() + " "
-                        + constants.getGoodWork();
+                        + dictionaries.getMaterial() + " "
+                        + dictionaries.getBadWork() + " "
+                        + dictionaries.getGeneralCharacter() + " "
+                        + dictionaries.getGoodWork();
             }
 
             if (Objects.equals(levelChoiceBox.getValue(),"Bad"))
             {
                 comment = nameTextField.getText() + " "
-                        + constants.getMaterial() + " "
-                        + constants.getGeneralCharacter() + " "
-                        + constants.getBadWork();
+                        + dictionaries.getMaterial() + " "
+                        + dictionaries.getGeneralCharacter() + " "
+                        + dictionaries.getBadWork();
             }
 
             if (Objects.equals(levelChoiceBox.getValue(),null))

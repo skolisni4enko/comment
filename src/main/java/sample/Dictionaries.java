@@ -7,15 +7,14 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Scanner;
 
-public class Constants {
-    List<String> material = new ArrayList<String>(); //знание и восприятие материала на уроке
-    private List<String> homeWork = new ArrayList<String>(); //выполнение домашних заданий
-    private List<String> generalCharacter = new ArrayList<String>(); //основные характеристики студента
-    private List<String> selfEducation = new ArrayList<String>(); //работа над саморазвитием
-    private List<String> goodWork = new ArrayList<String>(); //студент немного недорабатывает
-    private List<String> badWork = new ArrayList<String>(); //студент плохо работает над ДЗ
+public class Dictionaries {
+    private List<String> material = new ArrayList<>(); //знание и восприятие материала на уроке
+    private List<String> homeWork = new ArrayList<>(); //выполнение домашних заданий
+    private List<String> generalCharacter = new ArrayList<>(); //основные характеристики студента
+    private List<String> selfEducation = new ArrayList<>(); //работа над саморазвитием
+    private List<String> goodWork = new ArrayList<>(); //студент немного недорабатывает
+    private List<String> badWork = new ArrayList<>(); //студент плохо работает над ДЗ
 
     String getMaterial() {
         int a = (int) (Math.random() * material.size());
