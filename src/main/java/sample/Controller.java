@@ -43,10 +43,7 @@ public class Controller {
                 isInitialize = true;
             }
 
-
-
-            if (Objects.equals(levelChoiceBox.getValue(), "Excellent"))
-            {
+            if (Objects.equals(levelChoiceBox.getValue(), "Excellent")){
                 comment = nameTextField.getText() + " "
                         + dictionaries.getMaterial() + " "
                         + dictionaries.getHomework() + " "
@@ -54,8 +51,7 @@ public class Controller {
                         + dictionaries.getSelfEducation();
             }
 
-            if (Objects.equals(levelChoiceBox.getValue(),"Good"))
-            {
+            if (Objects.equals(levelChoiceBox.getValue(),"Good")){
                 comment = nameTextField.getText() + " "
                         + dictionaries.getMaterial() + " "
                         + dictionaries.getBadWork() + " "
@@ -63,19 +59,16 @@ public class Controller {
                         + dictionaries.getGoodWork();
             }
 
-            if (Objects.equals(levelChoiceBox.getValue(),"Bad"))
-            {
+            if (Objects.equals(levelChoiceBox.getValue(),"Bad")){
                 comment = nameTextField.getText() + " "
                         + dictionaries.getMaterial() + " "
                         + dictionaries.getGeneralCharacter() + " "
                         + dictionaries.getBadWork();
             }
 
-            if (Objects.equals(levelChoiceBox.getValue(),null))
-            {
+            if (Objects.equals(levelChoiceBox.getValue(),null)){
                 comment = "Select student level!";
             }
-
             commentTextArea.setText(comment);
         });
         // Очистка полей
@@ -83,9 +76,6 @@ public class Controller {
             nameTextField.clear();
             commentTextArea.clear();
         });
-
         levelChoiceBox.setItems(marks);
     }
-
-
 }
