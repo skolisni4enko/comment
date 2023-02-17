@@ -32,7 +32,7 @@ public class Controller {
     Dictionaries dictionaries = new Dictionaries();
     ObservableList<String> marks = FXCollections.observableArrayList("Excellent", "Good", "Bad");
     private boolean isInitialize = false;
-    private String comment = null;
+    private String comment = "";
 
     @FXML // This method is called by the FXMLLoader when initialization is complete
     void initialize() {
@@ -45,10 +45,10 @@ public class Controller {
 
             if (Objects.equals(levelChoiceBox.getValue(), "Excellent")){
                 comment = nameTextField.getText() + " "
-                        + dictionaries.getMaterial() + " "
-                        + dictionaries.getHomework() + " "
+                        + dictionaries.getMaterial()+" "
                         + dictionaries.getGeneralCharacter() + " "
-                        + dictionaries.getSelfEducation();
+                        + dictionaries.getSelfEducation() + " "
+                        + dictionaries.getHomework();
             }
 
             if (Objects.equals(levelChoiceBox.getValue(),"Good")){
